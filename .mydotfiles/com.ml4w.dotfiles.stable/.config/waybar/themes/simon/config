@@ -1,0 +1,45 @@
+{
+    // General Settings
+    // Position TOP
+    "layer": "top",
+    "margin-bottom": 0,
+    // Position BOTTOM
+    // "position": "bottom",
+    // "margin-top": 0,
+    // "margin-bottom": 14,
+    "margin-left": 0,
+    "margin-right": 0,
+    "spacing": 0,
+    // Load Modules
+    "include": [
+        "~/.config/waybar/themes/simon/modules.json"
+    ],
+    // Modules Left
+    "modules-left": [
+        //"custom/appmenu",
+        "hyprland/workspaces",
+        "group/quicklinks",
+        "hyprland/window",
+    ],
+    // Modules Center
+    "modules-center": [
+        "clock",
+    ],
+    // Modules Right    
+    "modules-right": [
+        "custom/updates",
+        "custom/ha-temp",
+        "pulseaudio",
+        "bluetooth",
+        "battery",
+        "network",
+        "group/hardware",
+        "custom/cliphist",
+        "custom/hypridle",
+        "custom/hyprshade",
+        "tray",
+        "custom/ml4w-welcome",
+        //"custom/settings",
+        "custom/exit"
+    ]
+}
