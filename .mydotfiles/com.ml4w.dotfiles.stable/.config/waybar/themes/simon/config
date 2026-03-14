@@ -28,6 +28,7 @@
     // Modules Right    
     "modules-right": [
         "custom/updates",
+        "custom/ha-lights",
         "custom/ha-temp",
         "pulseaudio",
         "bluetooth",
