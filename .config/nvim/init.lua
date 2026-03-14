@@ -380,7 +380,9 @@ vim.opt.showtabline = 1  -- Always show tabline (0=never, 1=when multiple tabs, 
 vim.opt.tabline = ''     -- Use default tabline (empty string uses built-in)
 
 -- Alternative navigation (more intuitive)
-vim.keymap.set('n', '<leader>tn', ':tabnew<CR>', { desc = 'New tab' })
+vim.keymap.set('n', '<leader>tN', ':tabnew<CR>', { desc = 'New tab' })
+vim.keymap.set('n', '<leader>tn', ':tabn<CR>', { desc = 'Next tab' })
+vim.keymap.set('n', '<leader>tp', ':tabp<CR>', { desc = 'Prev tab' })
 vim.keymap.set('n', '<leader>tx', ':tabclose<CR>', { desc = 'Close tab' })
 
 -- Tab moving
