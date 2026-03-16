@@ -354,9 +354,9 @@
         "format": "🌡 {}°C"
     },
 
-    "custom/ha-lights": {
+    "custom/ha-info": {
         "format": "",
-        "tooltip": false,
+        "tooltip": true,
         "menu": "on-click",
         "menu-file": "/home/simo/.config/waybar/scripts/ha_lights_menu.xml",
         "menu-actions": {
@@ -364,7 +364,10 @@
             "mood_light": "/home/simo/.config/waybar/scripts/mood_lights_bedroom_toggle.sh",
             "ac": "/home/simo/.config/waybar/scripts/ac_toggle.sh",
             "toggle_all_lights": "/home/simo/.config/waybar/scripts/lights_off.sh"
-        }
-}
-
+        },
+        "exec": "/home/simo/.config/waybar/scripts/ha_info.sh",
+        "interval": 60,
+        "return-type": "json",
+        "format": "{text}"
+    }
 }

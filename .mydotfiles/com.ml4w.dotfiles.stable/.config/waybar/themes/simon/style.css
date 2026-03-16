@@ -192,7 +192,8 @@ window#waybar.empty #window {
 #custom-quicklink_thunderbird,
 #custom-quicklink_calculator,
 #custom-ha-temp,
-#custom-ha-lights,
+#custom-ha-info,
+#custom-spotify,
 #custom-waybarthemes {
     margin-right: 15px;
     font-size: 18px;
@@ -211,6 +212,9 @@ window#waybar.empty #window {
 #custom-quicklink9,
 #custom-quicklink10 {
     margin-right: 24px;
+    font-size: 18px;
+    font-weight: bold;
+    color: @icon_color;
 }
 
 #custom-tools {
@@ -586,6 +590,15 @@ menuitem {
     border-radius: 10px;
 }
 
+tooltip {
+    border-style: solid;
+    border-color: @outline;
+    border-width: 1px;
+    border-radius: 5px;
+    background: @primary;
+    color: @secondary;
+    text-shadow: none;
+}
 /* -----------------------------------------------------
  * Import Matugen Colors
  * ----------------------------------------------------- */
