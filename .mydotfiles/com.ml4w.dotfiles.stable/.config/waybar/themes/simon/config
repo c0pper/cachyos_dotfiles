@@ -18,8 +18,9 @@
     "modules-left": [
         //"custom/appmenu",
         "hyprland/workspaces",
-        "group/quicklinks",
-        "hyprland/window",
+        //"group/quicklinks",
+        //"hyprland/window",
+        "custom/music"
     ],
     // Modules Center
     "modules-center": [

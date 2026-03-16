@@ -599,6 +599,28 @@ tooltip {
     color: @secondary;
     text-shadow: none;
 }
+
+#custom-music {
+    padding: 0 10px;
+    margin: 0 5px;
+    background: @surface_container_high; /* subtle background for the module */
+    border-radius: 8px;
+}
+
+#custom-music.playing {
+    color: @primary; /* bright blue for playing */
+    background: @surface_container_highest; /* slightly darker background */
+}
+
+#custom-music.paused {
+    color: @tertiary; /* soft purple for paused */
+    background: @surface_container_highest;
+}
+
+#custom-music.stopped {
+    color: @on_surface_variant; /* muted gray for stopped */
+    background: @surface_container_highest;
+}
 /* -----------------------------------------------------
  * Import Matugen Colors
  * ----------------------------------------------------- */

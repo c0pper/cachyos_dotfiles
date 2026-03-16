@@ -368,6 +368,12 @@
         "exec": "/home/simo/.config/waybar/scripts/ha_info.sh",
         "interval": 60,
         "return-type": "json",
-        "format": "{text}"
+        "tooltip-format": "{text}"
+    },
+
+    "custom/music": {
+      "format": "{}",
+      "return-type": "json",
+      "exec": "waybar-module-music --format '%icon% %artist% | %title%' --marquee --title-width 25"
     }
 }
