@@ -16,7 +16,7 @@
     ],
     // Modules Left
     "modules-left": [
-        //"custom/appmenu",
+        "custom/appmenu",
         "hyprland/workspaces",
         //"group/quicklinks",
         //"hyprland/window",
@@ -38,6 +38,8 @@
         "custom/cliphist",
         "custom/hypridle",
         "custom/hyprshade",
+        "custom/notification",
+        "hyprland/language",
         "tray",
         "custom/ml4w-welcome",
         //"custom/settings",
