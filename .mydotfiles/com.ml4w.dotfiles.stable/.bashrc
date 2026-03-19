@@ -35,3 +35,8 @@ done
 if [ -f ~/.bashrc_custom ]; then
     source ~/.bashrc_custom
 fi
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/home/simo/.lmstudio/bin"
+# End of LM Studio CLI section
+

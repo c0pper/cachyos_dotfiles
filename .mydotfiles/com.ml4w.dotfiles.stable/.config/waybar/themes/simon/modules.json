@@ -376,21 +376,27 @@
         "format": "🌡 {}°C"
     },
 
+//    "custom/ha-info": {
+//        "format": "",
+//        //"tooltip": true,
+//        "menu": "on-click",
+//        "menu-file": "/home/simo/.config/waybar/scripts/ha_lights_menu.xml",
+//        "menu-actions": {
+//            "bedroom_light": "/home/simo/.config/waybar/scripts/ceiling_light_bedroom_toggle.sh",
+//            "mood_light": "/home/simo/.config/waybar/scripts/mood_lights_bedroom_toggle.sh",
+//            "ac": "/home/simo/.config/waybar/scripts/ac_toggle.sh",
+//            "toggle_all_lights": "/home/simo/.config/waybar/scripts/lights_off.sh"
+//        },
+//        "exec": "/home/simo/.config/waybar/scripts/ha_info.sh",
+//        "interval": 60,
+//        "return-type": "json",
+//        "tooltip-format": "{text}"
+//    },
     "custom/ha-info": {
+        "exec": "echo ",
         "format": "",
-        "tooltip": true,
-        "menu": "on-click",
-        "menu-file": "/home/simo/.config/waybar/scripts/ha_lights_menu.xml",
-        "menu-actions": {
-            "bedroom_light": "/home/simo/.config/waybar/scripts/ceiling_light_bedroom_toggle.sh",
-            "mood_light": "/home/simo/.config/waybar/scripts/mood_lights_bedroom_toggle.sh",
-            "ac": "/home/simo/.config/waybar/scripts/ac_toggle.sh",
-            "toggle_all_lights": "/home/simo/.config/waybar/scripts/lights_off.sh"
-        },
-        "exec": "/home/simo/.config/waybar/scripts/ha_info.sh",
-        "interval": 60,
-        "return-type": "json",
-        "tooltip-format": "{text}"
+        "on-click": "sh -c ~/.mydotfiles/com.ml4w.dotfiles.stable/.config/waybar/scripts/ha_rofi_menu.sh",
+        "tooltip": false
     },
 
     "custom/music": {
