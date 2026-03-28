@@ -40,3 +40,4 @@ fi
 export PATH="$PATH:/home/simo/.lmstudio/bin"
 # End of LM Studio CLI section
 
+export PATH="$HOME/.local/bin:$PATH"
