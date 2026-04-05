@@ -1,0 +1,5 @@
+#!/bin/bash
+
+export HASS_SERVER="http://homeassistant.local:8123"
+export HASS_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJmMzM3ZTA3YWVmMzA0ZDYxOGE0MzYwOTA4ZTNlMWQyNSIsImlhdCI6MTc3MzE2MjQ0MCwiZXhwIjoyMDg4NTIyNDQwfQ.jtMOINeGAzNfdM8Y12qsZpC2fydzu9Ac9hrwgjx8d6c"
+

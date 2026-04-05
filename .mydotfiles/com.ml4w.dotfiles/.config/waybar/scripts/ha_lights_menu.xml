@@ -1,0 +1,35 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <object class="GtkMenu" id="menu">
+
+    <child>
+      <object class="GtkMenuItem" id="bedroom_light">
+        <property name="label">Ceiling Bedroom Light Toggle</property>
+      </object>
+    </child>
+
+    <child>
+      <object class="GtkMenuItem" id="mood_light">
+        <property name="label">Mood Light Toggle</property>
+      </object>
+    </child>
+    
+    <child>
+      <object class="GtkMenuItem" id="ac">
+        <property name="label">AC Toggle</property>
+      </object>
+    </child>
+
+    <child>
+      <object class="GtkSeparatorMenuItem"/>
+    </child>
+
+    <child>
+      <object class="GtkMenuItem" id="toggle_all_lights">
+        <property name="label">Toggle All Lights</property>
+      </object>
+    </child>
+
+  </object>
+</interface>
